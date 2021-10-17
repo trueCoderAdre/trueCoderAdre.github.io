@@ -81,6 +81,8 @@ html, body, .wrapper{
 
 .main{
     grid-area: main;
+    background-color: rgb(38, 43, 49);
+    padding-bottom: 32px;
 }
 
 .main > .title{
