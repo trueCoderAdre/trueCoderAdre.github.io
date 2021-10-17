@@ -318,10 +318,6 @@ html, body, .wrapper{
         text-align: center;
     }
 
-    .footer{
-        margin-top: 50px;
-    }
-
     .footer > div:nth-child(2) > ul{
         grid-template-columns: 32px 1fr 32px;
         grid-template-rows: repeat(3, 40px);
