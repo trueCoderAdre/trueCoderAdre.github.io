@@ -307,6 +307,10 @@ html, body, .wrapper{
 @media (max-width: 320px){
     .wrapper{
         grid-template-rows: 102px 49px 1fr auto;
+        grid-template-areas: "header"
+                             "appbar"
+                             "main"
+                             "footer";
     }
 
     .header > span:nth-child(2){
